@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "976573544790",
+    "firebase_url": "https://projet-geolocaliation.firebaseio.com",
+    "project_id": "projet-geolocaliation",
+    "storage_bucket": "projet-geolocaliation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976573544790:android:ba84511f39cd84d5",
+        "android_client_info": {
+          "package_name": "fr.uca.force_brumter.grouplocate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976573544790-nvm9v4bfahav12hu6erpj2du476spbks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.uca.force_brumter.grouplocate",
+            "certificate_hash": "80a18dc056bb13e4169ea1a3a8f7f9eb5e861c06"
+          }
+        },
+        {
+          "client_id": "976573544790-vdvd09msirmusedhkjuvc8vp53mjhdqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJF7RxMuP7xqy9xy6SDZcXSbwAmLyeu0E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976573544790-vdvd09msirmusedhkjuvc8vp53mjhdqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

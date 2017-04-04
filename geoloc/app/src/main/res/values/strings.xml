@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Group Locate</string>
+    <string name="buttonProfil">Profil</string>
+    <string name="buttonMap">Map</string>
+    <string name="buttonGroupe">Group</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="nom">Last name</string>
+    <string name="prenom">First name</string>
+    <string name="couleur">Color</string>
+    <string name="btnValider">Validate</string>
+    <string name="comingSoon">Coming soon!</string>
+
+    <string-array name="list_couleur">
+        <item>Azure</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Rose</item>
+        <item>Violet</item>
+        <item>Yellow</item>
+
+
+    </string-array>
+
+    <string name="google_maps_key">AIzaSyC-QEqWYzTqH3xxU8Jhf3oTBIszXbKlaaE</string>
+</resources>

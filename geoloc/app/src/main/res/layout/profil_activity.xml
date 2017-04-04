@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/buttonProfil"
+        android:id="@+id/titleProfil"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:text="@string/pseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleProfil"
+        android:layout_toLeftOf="@+id/titleProfil"
+        android:layout_toStartOf="@+id/titleProfil"
+        android:layout_marginTop="58dp"
+        android:id="@+id/textViewProfil"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="@string/couleur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/textViewCouriel"
+        android:textSize="24sp"
+        android:layout_below="@+id/textViewProfil"
+        android:layout_alignRight="@+id/textViewProfil"
+        android:layout_alignEnd="@+id/textViewProfil" />
+
+    <!--<TextView-->
+        <!--android:text="@string/prenom"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textViewCouriel"-->
+        <!--android:layout_alignRight="@+id/textViewCouriel"-->
+        <!--android:layout_alignEnd="@+id/textViewCouriel"-->
+        <!--android:layout_marginTop="45dp"-->
+        <!--android:id="@+id/textViewPrenom"-->
+        <!--android:textSize="24sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="@string/nom"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textViewPrenom"-->
+        <!--android:layout_alignRight="@+id/textViewPrenom"-->
+        <!--android:layout_alignEnd="@+id/textViewPrenom"-->
+        <!--android:layout_marginTop="45dp"-->
+        <!--android:id="@+id/textViewNom"-->
+        <!--android:textSize="24sp" />-->
+
+    <EditText
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/pseudo"
+        android:ems="10"
+        android:id="@+id/editTextPseudo"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignBaseline="@+id/textViewProfil"
+        android:layout_alignBottom="@+id/textViewProfil"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--<EditText-->
+        <!--android:layout_width="145dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:hint="@string/nom"-->
+        <!--android:ems="10"-->
+        <!--android:id="@+id/editTextNom"-->
+        <!--android:layout_alignBaseline="@+id/textViewNom"-->
+        <!--android:layout_alignBottom="@+id/textViewNom"-->
+        <!--android:layout_alignLeft="@+id/editTextPrenom"-->
+        <!--android:layout_alignStart="@+id/editTextPrenom" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="145dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:hint="@string/prenom"-->
+        <!--android:ems="10"-->
+        <!--android:id="@+id/editTextPrenom"-->
+        <!--android:layout_alignBaseline="@+id/textViewPrenom"-->
+        <!--android:layout_alignBottom="@+id/textViewPrenom"-->
+        <!--android:layout_alignLeft="@+id/editTextPseudo"-->
+        <!--android:layout_alignStart="@+id/editTextPseudo" />-->
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCouleur"
+        android:layout_alignBottom="@+id/textViewCouriel"
+        android:layout_alignRight="@+id/editTextPseudo"
+        android:layout_alignEnd="@+id/editTextPseudo"
+        android:layout_alignLeft="@+id/editTextPseudo"
+        android:layout_alignStart="@+id/editTextPseudo" />
+
+    <Button
+        android:text="@string/btnValider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnValider"
+        android:layout_marginBottom="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
